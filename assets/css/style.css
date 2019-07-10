@@ -1,3 +1,8 @@
+html {
+    height: 100%;
+    margin: 0px;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #777;
@@ -5,7 +10,8 @@ body {
     width: 960px;
     font-size: 18px;
     align-content: center;
-    margin: auto;
+    margin: 0 auto;
+    height: 100%;
 }
 
 header, nav, section, Aside, Footer {
@@ -13,6 +19,7 @@ header, nav, section, Aside, Footer {
 }
 
 header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     padding-top: 20px;
     padding-bottom: 20px;
     margin-bottom: 10px;
@@ -21,6 +28,7 @@ header {
     width: 20%;
     float: left;
     background: #4aaaa5;
+    color: #d40505
 }
 
 nav {
@@ -32,11 +40,12 @@ nav {
     float: left;
 }
 
+/* this is where the about me page begins */
+
 section {
     width: 75%;
     float: left;
     margin: 1.25%;
-    height: 55%;
     text-align: center;
     
 }
@@ -52,14 +61,14 @@ article {
     padding-top: 4px;
 }
 
-h1.outsider {
+.outsider {
     padding: 10px;
     Padding-bottom: 0px;
     text-align: left;
     margin-bottom: 0px;
 }
 
-p.briefbio {
+.briefbio {
     color: #777;
     background: #ebebeb;
     Height: 10%;
@@ -69,7 +78,7 @@ p.briefbio {
     text-align: left;
 }
 
-p.favorites {
+.favorites {
     color: #ebebeb;
     background: #777;
     Height: 10%;
@@ -90,12 +99,12 @@ aside {
     text-align: center;
 }
 
-p.aside {
+.aside {
     padding: 5%;
     
 }
 
-p.comments {
+.comments {
     color: #ebebeb;
     Background: #777;
     overflow: auto;
@@ -105,10 +114,51 @@ p.comments {
     padding: 10px;
 }
 
+div.push, footer {
+    height:30px;
+}
+
 footer {
     clear: both;
-    margin: 10px;
+    margin:10px;
     padding: 20px;
     text-align: center;
-    width: auto;
+    
 }
+
+/* this is where the portfolio page begins */
+
+.pitfolio {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+}
+
+div {
+    width: 125px;
+    height: 125px;
+    background-color: #4aaaa5;
+    margin: 10px;
+    left: 45%;
+}
+
+.piture1 {
+    
+}
+
+.piture2 {
+    
+}
+
+.piture3 {
+    
+}
+
+.piture4 {
+    
+}
+
+.piture5 {
+    
+}
+
