@@ -16,7 +16,6 @@ header {
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 20px;
-    margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 10px;
     text-align: center;
@@ -27,13 +26,11 @@ header {
 
 nav {
     padding: 20px;
-    margin-top: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
     text-align: right;
     width: 71.5%;
     float: left;
-    
 }
 
 section {
@@ -53,20 +50,34 @@ article {
     margin-top: 0px;
     width: auto;
     height: auto;
-    padding: 10px;
+    padding-top: 4px;
 }
 
 h1.outsider {
     padding: 10px;
+    Padding-bottom: 0px;
     text-align: left;
     margin-bottom: 0px;
 }
 
-p.insider {
+p.briefbio {
     color: #777;
     background: #ebebeb;
     Height: 10%;
-    padding: 5%;
+    padding: 2.5%;
+    padding-left: 0px;
+    margin: 0px;
+    text-align: left;
+}
+
+p.favorites {
+    color: #777;
+    background: #ebebeb;
+    Height: 10%;
+    padding: 2.5%;
+    padding-left: 0px;
+    margin: 0px;
+    text-align: left;
 }
 
 aside {
