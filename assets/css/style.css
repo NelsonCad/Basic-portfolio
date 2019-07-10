@@ -80,6 +80,10 @@ p.favorites {
     text-align: left;
 }
 
+img {
+    float: left;
+}
+
 aside {
     Width: 20%;
     float: left;
