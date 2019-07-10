@@ -12,11 +12,28 @@ header, nav, section, Aside, Footer {
     background: #ebebeb;
 }
 
-header, nav {
-    padding: 40px;
-    margin: 10px;
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
     text-align: center;
-    width: auto;
+    width: 20%;
+    float: left;
+    background: #4aaaa5;
+}
+
+nav {
+    padding: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 71.5%;
+    float: left;
+    
 }
 
 section {
@@ -25,6 +42,7 @@ section {
     margin: 1.25%;
     height: 55%;
     text-align: center;
+    
 }
 
 article {
@@ -33,26 +51,41 @@ article {
     overflow: auto;
     margin: 10px;
     width: auto;
-    height: 55%;
+    height: auto;
     padding: 10px;
 }
 
 p.outsider {
-    padding: 10%;
+    padding: 5%;
 }
 
 h1, p.insider {
     color: #777;
     background: #ebebeb;
-    padding: 10%;
+    Height: 10%;
+    padding: 5%;
 }
 
 aside {
     Width: 40%;
     float: left;
     margin: 1.25%;
-    height: 55%;
     text-align: center;
+}
+
+p.aside {
+    padding: 5%;
+    
+}
+
+p.comments {
+    color: #ebebeb;
+    Background: #777;
+    overflow: auto;
+    margin: 10px;
+    width: auto;
+    height: auto;
+    padding: 10px;
 }
 
 footer {
