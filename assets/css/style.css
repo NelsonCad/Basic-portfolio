@@ -114,10 +114,6 @@ aside {
     padding: 10px;
 }
 
-div.push, footer {
-    height:30px;
-}
-
 footer {
     clear: both;
     margin:10px;
@@ -132,33 +128,44 @@ footer {
     width: 100%;
     padding: 10px;
     margin: 10px;
+    clear: both;
+    align-content: center;
 }
 
 div {
     width: 125px;
     height: 125px;
     background-color: #4aaaa5;
-    margin: 10px;
-    left: 45%;
+    margin: 0px auto;
+    float: left;
+}
+
+.break {
+    width: 100%;
+    background-color: #ebebeb;
+    height: 22px;
 }
 
 .piture1 {
+    margin-left: 30%;
     
 }
 
 .piture2 {
+    margin-left: 14%;
     
 }
 
 .piture3 {
-    
+    margin-left: 30%;
+
 }
 
 .piture4 {
-    
+    margin-left: 14%;
 }
 
 .piture5 {
-    
+    margin-left: 30%;
 }
 
