@@ -36,7 +36,7 @@ nav {
     margin-right: 10px;
     margin-bottom: 10px;
     text-align: right;
-    width: 73.5%;
+    width: 73.75%;
     float: left;
 }
 
@@ -120,12 +120,13 @@ footer {
     padding: 20px;
     text-align: center;
     font-size: 10px;
+    width: 900px;
 }
 
 /* this is where the portfolio page begins */
 
 .pitfolio {
-    width: 100%;
+    width: 940px;
     padding: 10px 0px;
     margin: 10px;
     clear: both;
