@@ -168,30 +168,16 @@ div {
 
 .piture2 {
     margin-left: 14%;
-    
-}
-
-.piture3 {
-    margin-left: 30%;
-
-}
-
-.piture4 {
-    margin-left: 14%;
-}
-
-.piture5 {
-    margin-left: 30%;
 }
 
 .cuver {
     width: 125px;
-    height: 20px;
     background: #4aaaa5;
-    position: fixed;
-    margin-top: 85px;
+    position: relative;
+    margin-top: 125px;
     font-size: 12px;
     color: navy;
+    bottom: 20px;
 }
 
 /* Contact me page starts here*/
